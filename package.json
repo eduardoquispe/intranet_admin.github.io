@@ -1,0 +1,62 @@
+{
+  "name": "intranet_admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ashvin27/react-datatable": "^1.2.0",
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.42",
+    "@material-ui/styles": "^4.9.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "datatables.net": "^1.10.20",
+    "datatables.net-dt": "^1.10.20",
+    "jquery": "^3.4.1",
+    "material-table": "^1.57.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-html-parser": "^2.0.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.1",
+    "react-swipeable-views": "^0.13.9",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "shortid": "^2.2.15",
+    "spicy-datatable": "^0.8.2",
+    "sweetalert2": "^9.7.2",
+    "webpack": "^4.41.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon ./servidor/index.js",
+    "wacth": "webpack --w --mode development"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^2.0.2"
+  }
+}

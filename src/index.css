@@ -1,0 +1,113 @@
+/*Seccion de Creacion de Cursos*/
+.content-body{
+  background: rgb(238, 238, 238);
+}
+
+body h1, h3, h3, h4, h5, h6, p{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+*:focus{
+  outline: none;
+}
+
+
+.nav-tabs .nav-link p{
+  color: #fff !important;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.nav-tabs .nav-link:focus{
+  outline: none;
+}
+.nav-tabs .nav-link.active{
+  color: gray!important;
+}
+
+label{
+  font-weight: 500 !important;
+  color: grey
+}
+/*Tabla Fila padding*/
+/* .MuiTableCell-root{
+  padding: 1px !important;
+}
+.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignLeft{
+  padding: 9px 0px !important;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignLeft{
+  background: rgb(69, 84, 128, .2) !important;
+  padding: 10px 10px !important;
+}
+.MuiTableCell-head{
+color: rgb(34, 42, 64) !important;
+font-weight: 600 !important;
+}
+.MuiTableSortLabel-root:hover,.MuiTableSortLabel-root:active {
+color: rgb(34, 42, 64) !important;
+}
+.MuiTableSortLabel-icon{
+  opacity: 1 !important;
+}
+th.MuiTableCell-alignLeft{
+  text-align: center;
+}
+.MuiTableCell-root{
+  font-size: .95rem !important;
+  text-transform: uppercase;
+}
+td.MuiTableCell-root{
+  font-size: .75rem !important;
+  text-transform: uppercase;
+} */
+/* .main-sidebar.elevation-4::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background:rgb(40, 49, 74, .85);
+} */
+/* .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedStart.MuiInputBase-adornedEnd{
+  border: 1px solid #ccc !important;
+}
+.MuiInput-underline::before{
+   
+}
+.MuiInput-underline::after{
+
+}
+.breadcrumb{
+  background-color: #fff;
+}
+.MuiPaper-elevation2{
+  box-shadow: none !important;
+}
+.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignLeft{
+  background: #fff !important;
+} */
+.elevation-4{
+  box-shadow: none !important;
+}
+#as-react-datatable{
+  border: none;
+}
+#as-react-datatable th.sortable{
+  color: #394B59;
+}
+#as-react-datatable-table-head{
+  margin-top: 17px;
+  padding: 0 35px;
+}
+#as-react-datatable-table-body{
+  margin: 0 5px;
+}
+#as-react-datatable-table-foot{
+  margin: 0 5px;
+}
+.tabla.border{
+  padding: 0 0 10px 0;
+}
+.table-bordered td, .table-bordered th{
+  padding: 5px 10px !important;
+  vertical-align: middle !important;
+}
